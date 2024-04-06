@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paper-journal | Rohit Girdhar</title>
+    <link>https://rohitgirdhar.github.io/publication-type/paper-journal/</link>
+      <atom:link href="https://rohitgirdhar.github.io/publication-type/paper-journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>paper-journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rohitgirdhar.github.io/media/icon_huafb6545a7ac1b98e584f70276ee7d522_91451_512x512_fill_lanczos_center_3.png</url>
+      <title>paper-journal</title>
+      <link>https://rohitgirdhar.github.io/publication-type/paper-journal/</link>
+    </image>
+    
+    <item>
+      <title>Motion-Conditioned Image Animation for Video Editing</title>
+      <link>https://rohitgirdhar.github.io/publication/2023_moca/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://rohitgirdhar.github.io/publication/2023_moca/</guid>
+      <description>&lt;p&gt;We introduce MoCA, a Motion-Conditioned Image Animation approach for video editing. It leverages a simple decomposition of the video editing problem into image editing followed by motion-conditioned image animation. Furthermore, given the lack of robust evaluation datasets for video editing, we introduce a new benchmark that measures edit capability across a wide variety of tasks, such as object replacement, background changes, style changes, and motion edits. We present a comprehensive human evaluation of the latest video editing methods along with MoCA, on our proposed benchmark. MoCA establishes a new state-of-the-art, demonstrating greater human preference win-rate, and outperforming notable recent approaches including Dreamix (63%), MasaCtrl (75%), and Tune-A-Video (72%), with especially significant improvements for motion edits.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning</title>
+      <link>https://rohitgirdhar.github.io/publication/2023_emuvideo/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://rohitgirdhar.github.io/publication/2023_emuvideo/</guid>
+      <description>&lt;p&gt;We present Emu Video, a text-to-video generation model that factorizes the generation into two steps: first generating an image conditioned on the text, and then generating a video conditioned on the text and the generated image. We identify critical design decisions&amp;ndash;adjusted noise schedules for diffusion, and multi-stage training&amp;ndash;that enable us to directly generate high quality and high resolution videos, without requiring a deep cascade of models as in prior work. In human evaluations, our generated videos are strongly preferred in quality compared to all prior work&amp;ndash;81% vs. Google&amp;rsquo;s Imagen Video, 90% vs. Nvidia&amp;rsquo;s PYOCO, and 96% vs. Meta&amp;rsquo;s Make-A-Video. Our model outperforms commercial solutions such as RunwayML&amp;rsquo;s Gen2 and Pika Labs. Finally, our factorizing approach naturally lends itself to animating images based on a user&amp;rsquo;s text prompt, where our generations are preferred 96% over prior work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mask2Former for Video Instance Segmentation</title>
+      <link>https://rohitgirdhar.github.io/publication/2021_videomask2former/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://rohitgirdhar.github.io/publication/2021_videomask2former/</guid>
+      <description>&lt;p&gt;We find Mask2Former also achieves state-of-the-art performance on video instance segmentation without modifying the architecture, the loss or even the training pipeline. In this report, we show universal image segmentation architectures trivially generalize to video segmentation by directly predicting 3D segmentation volumes. Specifically, Mask2Former sets a new state-of-the-art of 60.4 AP on YouTubeVIS-2019 and 52.6 AP on YouTubeVIS-2021. We believe Mask2Former is also capable of handling video semantic and panoptic segmentation, given its versatility in image segmentation. We hope this will make state-of-the-art video segmentation research more accessible and bring more attention to designing universal image and video segmentation architectures.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

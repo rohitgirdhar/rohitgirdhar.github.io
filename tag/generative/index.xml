@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generative | Rohit Girdhar</title>
+    <link>https://rohitgirdhar.github.io/tag/generative/</link>
+      <atom:link href="https://rohitgirdhar.github.io/tag/generative/index.xml" rel="self" type="application/rss+xml" />
+    <description>Generative</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rohitgirdhar.github.io/media/icon_huafb6545a7ac1b98e584f70276ee7d522_91451_512x512_fill_lanczos_center_3.png</url>
+      <title>Generative</title>
+      <link>https://rohitgirdhar.github.io/tag/generative/</link>
+    </image>
+    
+    <item>
+      <title>InstanceDiffusion: Instance-level Control for Image Generation</title>
+      <link>https://rohitgirdhar.github.io/publication/2024_instancediffusion/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://rohitgirdhar.github.io/publication/2024_instancediffusion/</guid>
+      <description>&lt;p&gt;Text-to-image diffusion models produce high quality images but do not offer control over individual instances in the image. We introduce InstanceDiffusion that adds precise instance-level control to text-to-image diffusion models. InstanceDiffusion supports free-form language conditions per instance and allows flexible ways to specify instance locations such as simple single points, scribbles, bounding boxes or intricate instance segmentation masks, and combinations thereof. We propose three major changes to text-to-image models that enable precise instance-level control. Our UniFusion block enables instance-level conditions for text-to-image models, the ScaleU block improves image fidelity, and our Multi-instance Sampler improves generations for multiple instances. InstanceDiffusion significantly surpasses specialized state-of-the-art models for each location condition. Notably, on the COCO dataset, we outperform previous state-of-the-art by 20.4% AP50box for box inputs, and 25.4% IoU for mask inputs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generating Illustrated Instructions</title>
+      <link>https://rohitgirdhar.github.io/publication/2023_illustratedinstructions/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://rohitgirdhar.github.io/publication/2023_illustratedinstructions/</guid>
+      <description>&lt;p&gt;We introduce the new task of generating Illustrated Instructions, i.e., visual instructions customized to a user&amp;rsquo;s needs. We identify desiderata unique to this task, and formalize it through a suite of automatic and human evaluation metrics, designed to measure the validity, consistency, and efficacy of the generations. We combine the power of large language models (LLMs) together with strong text-to-image generation diffusion models to propose a simple approach called StackedDiffusion, which generates such illustrated instructions given text as input. The resulting model strongly outperforms baseline approaches and state-of-the-art multimodal LLMs; and in 30% of cases, users even prefer it to human-generated articles. Most notably, it enables various new and exciting applications far beyond what static articles on the web can provide, such as personalized instructions complete with intermediate steps and pictures in response to a user&amp;rsquo;s individual situation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motion-Conditioned Image Animation for Video Editing</title>
+      <link>https://rohitgirdhar.github.io/publication/2023_moca/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://rohitgirdhar.github.io/publication/2023_moca/</guid>
+      <description>&lt;p&gt;We introduce MoCA, a Motion-Conditioned Image Animation approach for video editing. It leverages a simple decomposition of the video editing problem into image editing followed by motion-conditioned image animation. Furthermore, given the lack of robust evaluation datasets for video editing, we introduce a new benchmark that measures edit capability across a wide variety of tasks, such as object replacement, background changes, style changes, and motion edits. We present a comprehensive human evaluation of the latest video editing methods along with MoCA, on our proposed benchmark. MoCA establishes a new state-of-the-art, demonstrating greater human preference win-rate, and outperforming notable recent approaches including Dreamix (63%), MasaCtrl (75%), and Tune-A-Video (72%), with especially significant improvements for motion edits.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning</title>
+      <link>https://rohitgirdhar.github.io/publication/2023_emuvideo/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://rohitgirdhar.github.io/publication/2023_emuvideo/</guid>
+      <description>&lt;p&gt;We present Emu Video, a text-to-video generation model that factorizes the generation into two steps: first generating an image conditioned on the text, and then generating a video conditioned on the text and the generated image. We identify critical design decisions&amp;ndash;adjusted noise schedules for diffusion, and multi-stage training&amp;ndash;that enable us to directly generate high quality and high resolution videos, without requiring a deep cascade of models as in prior work. In human evaluations, our generated videos are strongly preferred in quality compared to all prior work&amp;ndash;81% vs. Google&amp;rsquo;s Imagen Video, 90% vs. Nvidia&amp;rsquo;s PYOCO, and 96% vs. Meta&amp;rsquo;s Make-A-Video. Our model outperforms commercial solutions such as RunwayML&amp;rsquo;s Gen2 and Pika Labs. Finally, our factorizing approach naturally lends itself to animating images based on a user&amp;rsquo;s text prompt, where our generations are preferred 96% over prior work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MetaPix: Few-Shot Video Retargeting</title>
+      <link>https://rohitgirdhar.github.io/publication/2019_metapix/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://rohitgirdhar.github.io/publication/2019_metapix/</guid>
+      <description>&lt;p&gt;We address the task of unsupervised retargeting of human actions from one video to another. We consider the challenging setting where only a few frames of the target is available. The core of our approach is a conditional generative model that can transcode input skeletal poses (automatically extracted with an off-the-shelf pose estimator) to output target frames. However, it is challenging to build a universal transcoder because humans can appear wildly different due to clothing and background scene geometry. Instead, we learn to adapt - or personalize - a universal generator to the particular human and background in the target. To do so, we make use of meta-learning to discover effective strategies for on-the-fly personalization. One significant benefit of meta-learning is that the personalized transcoder naturally enforces temporal coherence across its generated frames; all frames contain consistent clothing and background geometry of the target. We experiment on in-the-wild internet videos and images and show our approach improves over widely-used baselines for the task.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning a Predictable and Generative Vector Representation for Objects</title>
+      <link>https://rohitgirdhar.github.io/publication/2016_tl/</link>
+      <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://rohitgirdhar.github.io/publication/2016_tl/</guid>
+      <description>&lt;p&gt;What is a good vector representation of an object? We believe that it should be generative in 3D, in the sense that it can produce new 3D objects; as well as be predictable from 2D, in the sense that it can be perceived from 2D images. We propose a novel architecture, called the TL-embedding network, to learn an embedding space with these properties. The network consists of two components: (a) an autoencoder that ensures the representation is generative; and (b) a convolutional network that ensures the representation is predictable. This enables tackling a number of tasks including voxel prediction from 2D images and 3D model retrieval. Extensive experimental analysis demonstrates the usefulness and versatility of this embedding.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
