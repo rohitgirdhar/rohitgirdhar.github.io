@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generative Models | Rohit Girdhar</title>
+    <link>http://localhost:1313/tag/generative-models/</link>
+      <atom:link href="http://localhost:1313/tag/generative-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>Generative Models</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9c1485188d0073ca.png</url>
+      <title>Generative Models</title>
+      <link>http://localhost:1313/tag/generative-models/</link>
+    </image>
+    
+    <item>
+      <title>Toward Diffusible High-Dimensional Latent Spaces: A Frequency Perspective</title>
+      <link>http://localhost:1313/publication/2025_freqwarm/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2025_freqwarm/</guid>
+      <description>&lt;p&gt;Latent diffusion has become the default paradigm for visual generation, yet we observe a persistent reconstruction-generation trade-off as latent dimensionality increases: higher-capacity autoencoders improve reconstruction fidelity but generation quality eventually declines. We trace this gap to the different behaviors in high-frequency encoding and decoding. Through controlled perturbations in both RGB and latent domains, we analyze encoder/decoder behaviors and find that decoders depend strongly on high-frequency latent components to recover details, whereas encoders under-represent high-frequency contents, yielding insufficient exposure and underfitting in high-frequency bands for diffusion model training. To address this issue, we introduce FreqWarm, a plug-and-play frequency warm-up curriculum that increases early-stage exposure to high-frequency latent signals during diffusion or flow-matching training &amp;ndash; without modifying or retraining the autoencoder. Applied across several high-dimensional autoencoders, FreqWarm consistently improves generation quality: decreasing gFID by 14.11 on Wan2.2-VAE, 6.13 on LTX-VAE, and 4.42 on DC-AE-f32, while remaining architecture-agnostic and compatible with diverse backbones. Our study shows that explicitly managing frequency exposure can successfully turn high-dimensional latent spaces into more diffusible targets.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

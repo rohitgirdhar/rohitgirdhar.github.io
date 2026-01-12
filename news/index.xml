@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News | Rohit Girdhar</title>
+    <link>http://localhost:1313/news/</link>
+      <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>News</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9c1485188d0073ca.png</url>
+      <title>News</title>
+      <link>http://localhost:1313/news/</link>
+    </image>
+    
+    <item>
+      <title>We announced Ego4D, the largest...</title>
+      <link>http://localhost:1313/news/2021-10-01-news-7/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2021-10-01-news-7/</guid>
+      <description>&lt;p&gt;We announced &amp;lt;a href=&amp;ldquo;&lt;a href=&#34;https://ego4d-data.org/%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ego4d-data.org/&#34;&lt;/a&gt;, target=&amp;quot;_blank&amp;rdquo;&amp;gt;Ego4D&lt;/a&gt;, the largest egocentric video dataset to date! See &amp;lt;a href=&amp;ldquo;&lt;a href=&#34;https://www.youtube.com/watch?v=taC2ZKl9IsE%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=taC2ZKl9IsE&#34;&lt;/a&gt;, target=&amp;quot;_blank&amp;rdquo;&amp;gt;this video&lt;/a&gt; for a quick intro, and see coverage from &lt;a href=&#34;https://techcrunch.com/2021/10/14/facebook-researchers-collect-thousands-of-hours-of-first-person-video-to-train-ai/&#34; target=&#34;_blank&#34;&gt;TechCrunch&lt;/a&gt;, &lt;a href=&#34;https://www.theverge.com/2021/10/14/22725894/facebook-augmented-reality-ar-glasses-ai-systems-ego4d-research&#34; target=&#34;_blank&#34;&gt;TheVerge&lt;/a&gt;, &lt;a href=&#34;https://www.axios.com/2021/10/14/facebook-first-person-ai-data&#34; target=&#34;_blank&#34;&gt;Axios&lt;/a&gt;, &lt;a href=&#34;https://www.fastcompany.com/90686015/facebook-ar-glasses-video-research&#34; target=&#34;_blank&#34;&gt;Fast Company&lt;/a&gt;, and &lt;a href=&#34;https://www.google.com/search?q=Ego4D&amp;tbm=nws&#34;&gt;others&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
