@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Representation | Rohit Girdhar</title>
+    <link>http://localhost:1313/tag/representation/</link>
+      <atom:link href="http://localhost:1313/tag/representation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Representation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9c1485188d0073ca.png</url>
+      <title>Representation</title>
+      <link>http://localhost:1313/tag/representation/</link>
+    </image>
+    
+    <item>
+      <title>SoundingActions: Learning How Actions Sound from Narrated Egocentric Videos</title>
+      <link>http://localhost:1313/publication/2024_soundingactions/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2024_soundingactions/</guid>
+      <description>&lt;p&gt;We propose a novel self-supervised embedding to learn how actions sound from narrated in-the-wild egocentric videos. Whereas existing methods rely on curated data with known audio-visual correspondence, our multimodal contrastive-consensus coding (MC3) embedding reinforces the associations between audio, language, and vision when all modality pairs agree, while diminishing those associations when any one pair does not. We show our approach can successfully discover how the long tail of human actions sound from egocentric video, outperforming an array of recent multimodal embedding techniques on two datasets (Ego4D and EPIC-Sounds) and multiple cross-modal tasks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VideoCutLER: Surprisingly Simple Unsupervised Video Instance Segmentation</title>
+      <link>http://localhost:1313/publication/2023_videocutler/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023_videocutler/</guid>
+      <description>&lt;p&gt;Existing approaches to unsupervised video instance segmentation typically rely on motion estimates and experience difficulties tracking small or divergent motions. We present VideoCutLER, a simple method for unsupervised multi-instance video segmentation without using motion-based learning signals like optical flow or training on natural videos. Our key insight is that using high-quality pseudo masks and a simple video synthesis method for model training is surprisingly sufficient to enable the resulting video model to effectively segment and track multiple instances across video frames. We show the first competitive unsupervised learning results on the challenging YouTubeVIS-2019 benchmark, achieving 50.7% APvideo^50 , surpassing the previous state-of-the-art by a large margin. VideoCutLER can also serve as a strong pretrained model for supervised video instance segmentation tasks, exceeding DINO by 15.9% on YouTubeVIS-2019 in terms of APvideo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The effectiveness of MAE pre-pretraining for billion-scale pretraining</title>
+      <link>http://localhost:1313/publication/2023_maws/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023_maws/</guid>
+      <description>&lt;p&gt;This paper revisits the standard pretrain-then-finetune paradigm used in computer vision for visual recognition tasks. Typically, state-of-the-art foundation models are pretrained using large scale (weakly) supervised datasets with billions of images. We introduce an additional pre-pretraining stage that is simple and uses the self-supervised MAE technique to initialize the model. While MAE has only been shown to scale with the size of models, we find that it scales with the size of the training dataset as well. Thus, our MAE-based pre-pretraining scales with both model and data size making it applicable for training foundation models. Pre-pretraining consistently improves both the model convergence and the downstream transfer performance across a range of model scales (millions to billions of parameters), and dataset sizes (millions to billions of images). We measure the effectiveness of pre-pretraining on 10 different visual recognition tasks spanning image classification, video recognition, object detection, low-shot classification and zero-shot recognition. Our largest model achieves new state-of-the-art results on iNaturalist-18 (91.3%), 1-shot ImageNet-1k (62.1%), and zero-shot transfer on Food-101 (96.2%). Our study reveals that model initialization plays a significant role, even for web-scale pretraining with billions of images.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CutLER: Cut and Learn for Unsupervised Object Detection and Instance Segmentation</title>
+      <link>http://localhost:1313/publication/2023_cutler/</link>
+      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023_cutler/</guid>
+      <description>&lt;p&gt;We propose Cut-and-LEaRn (CutLER) which is a simple approach for training unsupervised object detection and segmentation models. We leverage the property of selfsupervised models to &amp;ldquo;discover&amp;rdquo; objects without supervision and amplify it to train a state-of-the-art localization model without any human labels. CutLER first uses our proposed MaskCut approach to generate coarse masks for multiple objects in an image, and then learns a detector on these masks using our robust loss function. We further improve performance by self-training the model on its predictions. Compared to prior work, CutLER is simpler, compatible with different detection architectures, and detects multiple objects. CutLER is also a zero-shot unsupervised detector and improves detection performance by over 2.7 times on 11 benchmarks across domains like video frames, paintings, sketches, etc. With finetuning, CutLER serves as a lowshot detector surpassing MoCo-v2 by 7.3% APbox and 6.5% APmask on COCO when training with 5% labels.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OmniMAE: Single Model Masked Pretraining on Images and Videos</title>
+      <link>http://localhost:1313/publication/2022_omnimae/</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2022_omnimae/</guid>
+      <description>&lt;p&gt;Transformer-based architectures have become competitive across a variety of visual domains, most notably images and videos. While prior work studies these modalities in isolation, having a common architecture suggests that one can train a single unified model for multiple visual modalities. Prior attempts at unified modeling typically use architectures tailored for vision tasks, or obtain worse performance compared to single modality models. In this work, we show that masked autoencoding can be used to train a simple Vision Transformer on images and videos, without requiring any labeled data. This single model learns visual representations that are comparable to or better than single-modality representations on both image and video benchmarks, while using a much simpler architecture. Furthermore, this model can be learned by dropping 90% of the image and 95% of the video patches, enabling extremely fast training of huge model architectures. In particular, we show that our single ViT-Huge model can be finetuned to achieve 86.6% on ImageNet and 75.5% on the challenging Something Something-v2 video benchmark, setting a new state-of-the-art.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Omnivore: A Single Model for Many Visual Modalities</title>
+      <link>http://localhost:1313/publication/2022_omnivore/</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2022_omnivore/</guid>
+      <description>&lt;p&gt;Prior work has studied different visual modalities in isolation and developed separate architectures for recognition of images, videos, and 3D data. Instead, in this paper, we propose a single model which excels at classifying images, videos, and single-view 3D data using exactly the same model parameters. Our &amp;lsquo;OMNIVORE&amp;rsquo; model leverages the flexibility of transformer-based architectures and is trained jointly on classification tasks from different modalities. OMNIVORE is simple to train, uses off-the-shelf standard datasets, and performs at-par or better than modality-specific models of the same size. A single OMNIVORE model obtains 86.0% on ImageNet, 84.1% on Kinetics, and 67.1% on SUN RGB-D. After finetuning, our models outperform prior work on a variety of vision tasks and generalize across modalities. OMNIVORE&amp;rsquo;s shared visual representation naturally enables cross-modal recognition without access to correspondences between modalities. We hope our results motivate researchers to model visual modalities together.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Detecting Twenty-thousand Classes using Image-level Supervision</title>
+      <link>http://localhost:1313/publication/2022_detic/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2022_detic/</guid>
+      <description>&lt;p&gt;Current object detectors are limited in vocabulary size due to the small scale of detection datasets. Image classifiers, on the other hand, reason about much larger vocabularies, as their datasets are larger and easier to collect. We propose Detic, which simply trains the classifiers of a detector on image classification data and thus expands the vocabulary of detectors to tens of thousands of concepts. Unlike prior work, Detic does not need complex assignment schemes to assign image labels to boxes based on model predictions, making it much easier to implement and compatible with a range of detection architectures and backbones. Our results show that Detic yields excellent detectors even for classes without box annotations. It outperforms prior work on both open-vocabulary and long-tail detection benchmarks. Detic provides a gain of 2.4 mAP for all classes and 8.3 mAP for novel classes on the open-vocabulary LVIS benchmark. On the standard LVIS benchmark, Detic obtains 41.7 mAP when evaluated on all classes, or only rare classes, hence closing the gap in performance for object categories with few samples. For the first time, we train a detector with all the twenty-one-thousand classes of the ImageNet dataset and show that it generalizes to new datasets without finetuning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self-Supervised Pretraining of 3D Features on any Point-Cloud</title>
+      <link>http://localhost:1313/publication/2021_depthcontrast/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021_depthcontrast/</guid>
+      <description>&lt;p&gt;Pretraining on large labeled datasets is a prerequisite to achieve good performance in many computer vision tasks like 2D object recognition, video classification etc. However, pretraining is not widely used for 3D recognition tasks where state-of-the-art methods train models from scratch. A primary reason is the lack of large annotated datasets because 3D data is both difficult to acquire and time consuming to label. We present a simple self-supervised pertaining method that can work with any 3D data - single or multiview, indoor or outdoor, acquired by varied sensors, without 3D registration. We pretrain standard point cloud and voxel based model architectures, and show that joint pretraining further improves performance. We evaluate our models on 9 benchmarks for object detection, semantic segmentation, and object classification, where they achieve state-of-the-art results and can outperform supervised pretraining. We set a new state-of-the-art for object detection on ScanNet (69.0% mAP) and SUNRGBD (63.5% mAP). Our pretrained models are label efficient and improve performance for classes with few examples.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DistInit: Learning Video Representations Without a Single Labeled Video</title>
+      <link>http://localhost:1313/publication/2019_distinit/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2019_distinit/</guid>
+      <description>&lt;p&gt;Video recognition models have progressed significantly over the past few years, evolving from shallow classifiers trained on hand-crafted features to deep spatiotemporal networks. However, labeled video data required to train such models have not been able to keep up with the ever-increasing depth and sophistication of these networks. In this work, we propose an alternative approach to learning video representations that require no semantically labeled videos and instead leverages the years of effort in collecting and labeling large and clean still-image datasets. We do so by using state-of-the-art models pre-trained on image datasets as &amp;ldquo;teachers&amp;rdquo; to train video models in a distillation framework. We demonstrate that our method learns truly spatiotemporal features, despite being trained only using supervision from still-image networks. Moreover, it learns good representations across different input modalities, using completely uncurated raw video data sources and with different 2D teacher models. Our method obtains strong transfer performance, outperforming standard techniques for bootstrapping video architectures with image-based models by 16%. We believe that our approach opens up new approaches for learning spatiotemporal representations from unlabeled video data.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

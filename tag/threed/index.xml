@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ThreeD | Rohit Girdhar</title>
+    <link>http://localhost:1313/tag/threed/</link>
+      <atom:link href="http://localhost:1313/tag/threed/index.xml" rel="self" type="application/rss+xml" />
+    <description>ThreeD</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9c1485188d0073ca.png</url>
+      <title>ThreeD</title>
+      <link>http://localhost:1313/tag/threed/</link>
+    </image>
+    
+    <item>
+      <title>3DETR: An End-to-End Transformer Model for 3D Object Detection</title>
+      <link>http://localhost:1313/publication/2021_3detr/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021_3detr/</guid>
+      <description>&lt;p&gt;We propose 3DETR, an end-to-end Transformer based object detection model for 3D point clouds. Compared to existing detection methods that employ a number of 3D specific inductive biases, 3DETR requires minimal modifications to the vanilla Transformer block. Specifically, we find that a standard Transformer with non-parametric queries and Fourier positional embeddings is competitive with specialized architectures that employ libraries of 3D specific operators with hand-tuned hyperparameters. Nevertheless, 3DETR is conceptually simple and easy to implement, enabling further improvements by incorporating 3D domain knowledge. Through extensive experiments, we show 3DETR outperforms the well-established and highly optimized VoteNet baselines on the challenging ScanNetV2 dataset by 9.5%. Furthermore, we show 3DETR is applicable to 3D tasks beyond detection, and can serve as a building block for future research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3D Spatial Recognition without Spatially Labeled 3D</title>
+      <link>http://localhost:1313/publication/2021_wypr/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021_wypr/</guid>
+      <description>&lt;p&gt;We introduce WyPR, a Weakly-supervised framework for Point cloud Recognition, requiring only scene-level class tags as supervision. WyPR jointly addresses three core 3D recognition tasks: point-level semantic segmentation, 3D proposal generation, and 3D object detection, coupling their predictions through self and cross-task consistency losses. We show that in conjunction with standard multiple-instance learning objectives, WyPR can detect and segment objects in point cloud without access to any spatial labels at training time. We demonstrate its efficacy using the ScanNet and S3DIS datasets, outperforming prior state of the art on weakly-supervised segmentation by more than 6% mIoU. In addition, we set up the first benchmark for weakly-supervised 3D object detection on both datasets, where WyPR outperforms standard approaches and establishes strong baselines for future work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self-Supervised Pretraining of 3D Features on any Point-Cloud</title>
+      <link>http://localhost:1313/publication/2021_depthcontrast/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021_depthcontrast/</guid>
+      <description>&lt;p&gt;Pretraining on large labeled datasets is a prerequisite to achieve good performance in many computer vision tasks like 2D object recognition, video classification etc. However, pretraining is not widely used for 3D recognition tasks where state-of-the-art methods train models from scratch. A primary reason is the lack of large annotated datasets because 3D data is both difficult to acquire and time consuming to label. We present a simple self-supervised pertaining method that can work with any 3D data - single or multiview, indoor or outdoor, acquired by varied sensors, without 3D registration. We pretrain standard point cloud and voxel based model architectures, and show that joint pretraining further improves performance. We evaluate our models on 9 benchmarks for object detection, semantic segmentation, and object classification, where they achieve state-of-the-art results and can outperform supervised pretraining. We set a new state-of-the-art for object detection on ScanNet (69.0% mAP) and SUNRGBD (63.5% mAP). Our pretrained models are label efficient and improve performance for classes with few examples.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning a Predictable and Generative Vector Representation for Objects</title>
+      <link>http://localhost:1313/publication/2016_tl/</link>
+      <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2016_tl/</guid>
+      <description>&lt;p&gt;What is a good vector representation of an object? We believe that it should be generative in 3D, in the sense that it can produce new 3D objects; as well as be predictable from 2D, in the sense that it can be perceived from 2D images. We propose a novel architecture, called the TL-embedding network, to learn an embedding space with these properties. The network consists of two components: (a) an autoencoder that ensures the representation is generative; and (b) a convolutional network that ensures the representation is predictable. This enables tackling a number of tasks including voxel prediction from 2D images and 3D model retrieval. Extensive experimental analysis demonstrates the usefulness and versatility of this embedding.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

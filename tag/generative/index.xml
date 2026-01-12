@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generative | Rohit Girdhar</title>
+    <link>http://localhost:1313/tag/generative/</link>
+      <atom:link href="http://localhost:1313/tag/generative/index.xml" rel="self" type="application/rss+xml" />
+    <description>Generative</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9c1485188d0073ca.png</url>
+      <title>Generative</title>
+      <link>http://localhost:1313/tag/generative/</link>
+    </image>
+    
+    <item>
+      <title>Diffusion Autoencoders are Scalable Image Tokenizers</title>
+      <link>http://localhost:1313/publication/2025_dito/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2025_dito/</guid>
+      <description>&lt;p&gt;Tokenizing images into compact visual representations is a key step in learning efficient and high-quality image generative models. We present a simple diffusion tokenizer (DiTo) that learns compact visual representations for image generation models. Our key insight is that a single learning objective, diffusion L2 loss, can be used for training scalable image tokenizers. Since diffusion is already widely used for image generation, our insight greatly simplifies training such tokenizers. In contrast, current state-of-the-art tokenizers rely on an empirically found combination of heuristics and losses, thus requiring a complex training recipe that relies on non-trivially balancing different losses and pretrained supervised models. We show design decisions, along with theoretical grounding, that enable us to scale DiTo for learning competitive image representations. Our results show that DiTo is a simpler, scalable, and self-supervised alternative to the current state-of-the-art image tokenizer which is supervised. DiTo achieves competitive or better quality than state-of-the-art in image reconstruction and downstream image generation tasks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LLMs can see and hear without any training</title>
+      <link>http://localhost:1313/publication/2025_mils/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2025_mils/</guid>
+      <description>&lt;p&gt;We present MILS: Multimodal Iterative LLM Solver, a surprisingly simple, training-free approach, to imbue multimodal capabilities into your favorite LLM. Leveraging their innate ability to perform multi-step reasoning, MILS prompts the LLM to generate candidate outputs, each of which are scored and fed back iteratively, eventually generating a solution to the task. This enables various applications that typically require training specialized models on task-specific data. In particular, we establish a new state-of-the-art on emergent zero-shot image, video and audio captioning. MILS seamlessly applies to media generation as well, discovering prompt rewrites to improve text-to-image generation, and even edit prompts for style transfer! Finally, being a gradient-free optimization approach, MILS can invert multimodal embeddings into text, enabling applications like cross-modal arithmetic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MotiF: Making Text Count in Image Animation with Motion Focal Loss</title>
+      <link>http://localhost:1313/publication/2024_motif/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2024_motif/</guid>
+      <description>&lt;p&gt;Text-Image-to-Video (TI2V) generation aims to generate a video from an image following a text description, which is also referred to as text-guided image animation. Most existing methods struggle to generate videos that align well with the text prompts, particularly when motion is specified. To overcome this limitation, we introduce MotiF, a simple yet effective approach that directs the model&amp;rsquo;s learning to the regions with more motion, thereby improving the text alignment and motion generation. We use optical flow to generate a motion heatmap and weight the loss according to the intensity of the motion. This modified objective leads to noticeable improvements and complements existing methods that utilize motion priors as model inputs. Additionally, due to the lack of a diverse benchmark for evaluating TI2V generation, we propose TI2V Bench, a dataset consists of 320 image-text pairs for robust evaluation. We present a human evaluation protocol that asks the annotators to select an overall preference between two videos followed by their justifications. Through a comprehensive evaluation on TI2V Bench, MotiF outperforms nine open-sourced models, achieving an average preference of 72%. The TI2V Bench is released in &lt;a href=&#34;https://wang-sj16.github.io/motif/&#34;&gt;this https URL&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Movie Gen: A Cast of Media Foundation Models</title>
+      <link>http://localhost:1313/publication/2024_moviegen/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2024_moviegen/</guid>
+      <description>&lt;p&gt;We present Movie Gen, a cast of foundation models that generates high-quality, 1080p HD videos with different aspect ratios and synchronized audio. We also show additional capabilities such as precise instruction-based video editing and generation of personalized videos based on a user&amp;rsquo;s image. Our models set a new state-of-the-art on multiple tasks: text-to-video synthesis, video personalization, video editing, video-to-audio generation, and text-to-audio generation. Our largest video generation model is a 30B parameter transformer trained with a maximum context length of 73K video tokens, corresponding to a generated video of 16 seconds at 16 frames-per-second. We show multiple technical innovations and simplifications on the architecture, latent spaces, training objectives and recipes, data curation, evaluation protocols, parallelization techniques, and inference optimizations that allow us to reap the benefits of scaling pre-training data, model size, and training compute for training large scale media generation models. We hope this paper helps the research community to accelerate progress and innovation in media generation models. All videos from this paper are available at &lt;a href=&#34;https://www.youtube.com/playlist?list=PL86eLlsPNfyi27GSizYjinpYxp7gEl5K8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this https URL&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>InstanceDiffusion: Instance-level Control for Image Generation</title>
+      <link>http://localhost:1313/publication/2024_instancediffusion/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2024_instancediffusion/</guid>
+      <description>&lt;p&gt;Text-to-image diffusion models produce high quality images but do not offer control over individual instances in the image. We introduce InstanceDiffusion that adds precise instance-level control to text-to-image diffusion models. InstanceDiffusion supports free-form language conditions per instance and allows flexible ways to specify instance locations such as simple single points, scribbles, bounding boxes or intricate instance segmentation masks, and combinations thereof. We propose three major changes to text-to-image models that enable precise instance-level control. Our UniFusion block enables instance-level conditions for text-to-image models, the ScaleU block improves image fidelity, and our Multi-instance Sampler improves generations for multiple instances. InstanceDiffusion significantly surpasses specialized state-of-the-art models for each location condition. Notably, on the COCO dataset, we outperform previous state-of-the-art by 20.4% AP50box for box inputs, and 25.4% IoU for mask inputs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generating Illustrated Instructions</title>
+      <link>http://localhost:1313/publication/2023_illustratedinstructions/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023_illustratedinstructions/</guid>
+      <description>&lt;p&gt;We introduce the new task of generating Illustrated Instructions, i.e., visual instructions customized to a user&amp;rsquo;s needs. We identify desiderata unique to this task, and formalize it through a suite of automatic and human evaluation metrics, designed to measure the validity, consistency, and efficacy of the generations. We combine the power of large language models (LLMs) together with strong text-to-image generation diffusion models to propose a simple approach called StackedDiffusion, which generates such illustrated instructions given text as input. The resulting model strongly outperforms baseline approaches and state-of-the-art multimodal LLMs; and in 30% of cases, users even prefer it to human-generated articles. Most notably, it enables various new and exciting applications far beyond what static articles on the web can provide, such as personalized instructions complete with intermediate steps and pictures in response to a user&amp;rsquo;s individual situation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motion-Conditioned Image Animation for Video Editing</title>
+      <link>http://localhost:1313/publication/2023_moca/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023_moca/</guid>
+      <description>&lt;p&gt;We introduce MoCA, a Motion-Conditioned Image Animation approach for video editing. It leverages a simple decomposition of the video editing problem into image editing followed by motion-conditioned image animation. Furthermore, given the lack of robust evaluation datasets for video editing, we introduce a new benchmark that measures edit capability across a wide variety of tasks, such as object replacement, background changes, style changes, and motion edits. We present a comprehensive human evaluation of the latest video editing methods along with MoCA, on our proposed benchmark. MoCA establishes a new state-of-the-art, demonstrating greater human preference win-rate, and outperforming notable recent approaches including Dreamix (63%), MasaCtrl (75%), and Tune-A-Video (72%), with especially significant improvements for motion edits.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning</title>
+      <link>http://localhost:1313/publication/2023_emuvideo/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023_emuvideo/</guid>
+      <description>&lt;p&gt;We present Emu Video, a text-to-video generation model that factorizes the generation into two steps: first generating an image conditioned on the text, and then generating a video conditioned on the text and the generated image. We identify critical design decisions&amp;ndash;adjusted noise schedules for diffusion, and multi-stage training&amp;ndash;that enable us to directly generate high quality and high resolution videos, without requiring a deep cascade of models as in prior work. In human evaluations, our generated videos are strongly preferred in quality compared to all prior work&amp;ndash;81% vs. Google&amp;rsquo;s Imagen Video, 90% vs. Nvidia&amp;rsquo;s PYOCO, and 96% vs. Meta&amp;rsquo;s Make-A-Video. Our model outperforms commercial solutions such as RunwayML&amp;rsquo;s Gen2 and Pika Labs. Finally, our factorizing approach naturally lends itself to animating images based on a user&amp;rsquo;s text prompt, where our generations are preferred 96% over prior work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MetaPix: Few-Shot Video Retargeting</title>
+      <link>http://localhost:1313/publication/2019_metapix/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2019_metapix/</guid>
+      <description>&lt;p&gt;We address the task of unsupervised retargeting of human actions from one video to another. We consider the challenging setting where only a few frames of the target is available. The core of our approach is a conditional generative model that can transcode input skeletal poses (automatically extracted with an off-the-shelf pose estimator) to output target frames. However, it is challenging to build a universal transcoder because humans can appear wildly different due to clothing and background scene geometry. Instead, we learn to adapt - or personalize - a universal generator to the particular human and background in the target. To do so, we make use of meta-learning to discover effective strategies for on-the-fly personalization. One significant benefit of meta-learning is that the personalized transcoder naturally enforces temporal coherence across its generated frames; all frames contain consistent clothing and background geometry of the target. We experiment on in-the-wild internet videos and images and show our approach improves over widely-used baselines for the task.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning a Predictable and Generative Vector Representation for Objects</title>
+      <link>http://localhost:1313/publication/2016_tl/</link>
+      <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2016_tl/</guid>
+      <description>&lt;p&gt;What is a good vector representation of an object? We believe that it should be generative in 3D, in the sense that it can produce new 3D objects; as well as be predictable from 2D, in the sense that it can be perceived from 2D images. We propose a novel architecture, called the TL-embedding network, to learn an embedding space with these properties. The network consists of two components: (a) an autoencoder that ensures the representation is generative; and (b) a convolutional network that ensures the representation is predictable. This enables tackling a number of tasks including voxel prediction from 2D images and 3D model retrieval. Extensive experimental analysis demonstrates the usefulness and versatility of this embedding.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

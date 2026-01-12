@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spatial | Rohit Girdhar</title>
+    <link>http://localhost:1313/tag/spatial/</link>
+      <atom:link href="http://localhost:1313/tag/spatial/index.xml" rel="self" type="application/rss+xml" />
+    <description>Spatial</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9c1485188d0073ca.png</url>
+      <title>Spatial</title>
+      <link>http://localhost:1313/tag/spatial/</link>
+    </image>
+    
+    <item>
+      <title>InstanceDiffusion: Instance-level Control for Image Generation</title>
+      <link>http://localhost:1313/publication/2024_instancediffusion/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2024_instancediffusion/</guid>
+      <description>&lt;p&gt;Text-to-image diffusion models produce high quality images but do not offer control over individual instances in the image. We introduce InstanceDiffusion that adds precise instance-level control to text-to-image diffusion models. InstanceDiffusion supports free-form language conditions per instance and allows flexible ways to specify instance locations such as simple single points, scribbles, bounding boxes or intricate instance segmentation masks, and combinations thereof. We propose three major changes to text-to-image models that enable precise instance-level control. Our UniFusion block enables instance-level conditions for text-to-image models, the ScaleU block improves image fidelity, and our Multi-instance Sampler improves generations for multiple instances. InstanceDiffusion significantly surpasses specialized state-of-the-art models for each location condition. Notably, on the COCO dataset, we outperform previous state-of-the-art by 20.4% AP50box for box inputs, and 25.4% IoU for mask inputs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VideoCutLER: Surprisingly Simple Unsupervised Video Instance Segmentation</title>
+      <link>http://localhost:1313/publication/2023_videocutler/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023_videocutler/</guid>
+      <description>&lt;p&gt;Existing approaches to unsupervised video instance segmentation typically rely on motion estimates and experience difficulties tracking small or divergent motions. We present VideoCutLER, a simple method for unsupervised multi-instance video segmentation without using motion-based learning signals like optical flow or training on natural videos. Our key insight is that using high-quality pseudo masks and a simple video synthesis method for model training is surprisingly sufficient to enable the resulting video model to effectively segment and track multiple instances across video frames. We show the first competitive unsupervised learning results on the challenging YouTubeVIS-2019 benchmark, achieving 50.7% APvideo^50 , surpassing the previous state-of-the-art by a large margin. VideoCutLER can also serve as a strong pretrained model for supervised video instance segmentation tasks, exceeding DINO by 15.9% on YouTubeVIS-2019 in terms of APvideo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CutLER: Cut and Learn for Unsupervised Object Detection and Instance Segmentation</title>
+      <link>http://localhost:1313/publication/2023_cutler/</link>
+      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023_cutler/</guid>
+      <description>&lt;p&gt;We propose Cut-and-LEaRn (CutLER) which is a simple approach for training unsupervised object detection and segmentation models. We leverage the property of selfsupervised models to &amp;ldquo;discover&amp;rdquo; objects without supervision and amplify it to train a state-of-the-art localization model without any human labels. CutLER first uses our proposed MaskCut approach to generate coarse masks for multiple objects in an image, and then learns a detector on these masks using our robust loss function. We further improve performance by self-training the model on its predictions. Compared to prior work, CutLER is simpler, compatible with different detection architectures, and detects multiple objects. CutLER is also a zero-shot unsupervised detector and improves detection performance by over 2.7 times on 11 benchmarks across domains like video frames, paintings, sketches, etc. With finetuning, CutLER serves as a lowshot detector surpassing MoCo-v2 by 7.3% APbox and 6.5% APmask on COCO when training with 5% labels.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Detecting Twenty-thousand Classes using Image-level Supervision</title>
+      <link>http://localhost:1313/publication/2022_detic/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2022_detic/</guid>
+      <description>&lt;p&gt;Current object detectors are limited in vocabulary size due to the small scale of detection datasets. Image classifiers, on the other hand, reason about much larger vocabularies, as their datasets are larger and easier to collect. We propose Detic, which simply trains the classifiers of a detector on image classification data and thus expands the vocabulary of detectors to tens of thousands of concepts. Unlike prior work, Detic does not need complex assignment schemes to assign image labels to boxes based on model predictions, making it much easier to implement and compatible with a range of detection architectures and backbones. Our results show that Detic yields excellent detectors even for classes without box annotations. It outperforms prior work on both open-vocabulary and long-tail detection benchmarks. Detic provides a gain of 2.4 mAP for all classes and 8.3 mAP for novel classes on the open-vocabulary LVIS benchmark. On the standard LVIS benchmark, Detic obtains 41.7 mAP when evaluated on all classes, or only rare classes, hence closing the gap in performance for object categories with few samples. For the first time, we train a detector with all the twenty-one-thousand classes of the ImageNet dataset and show that it generalizes to new datasets without finetuning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mask2Former for Video Instance Segmentation</title>
+      <link>http://localhost:1313/publication/2021_videomask2former/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021_videomask2former/</guid>
+      <description>&lt;p&gt;We find Mask2Former also achieves state-of-the-art performance on video instance segmentation without modifying the architecture, the loss or even the training pipeline. In this report, we show universal image segmentation architectures trivially generalize to video segmentation by directly predicting 3D segmentation volumes. Specifically, Mask2Former sets a new state-of-the-art of 60.4 AP on YouTubeVIS-2019 and 52.6 AP on YouTubeVIS-2021. We believe Mask2Former is also capable of handling video semantic and panoptic segmentation, given its versatility in image segmentation. We hope this will make state-of-the-art video segmentation research more accessible and bring more attention to designing universal image and video segmentation architectures.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Masked-attention Mask Transformer for Universal Image Segmentation</title>
+      <link>http://localhost:1313/publication/2021_mask2former/</link>
+      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021_mask2former/</guid>
+      <description>&lt;p&gt;Image segmentation is about grouping pixels with different semantics, e.g., category or instance membership, where each choice of semantics defines a task. While only the semantics of each task differ, current research focuses on designing specialized architectures for each task. We present Masked-attention Mask Transformer (Mask2Former), a new architecture capable of addressing any image segmentation task (panoptic, instance or semantic). Its key components include masked attention, which extracts localized features by constraining cross-attention within predicted mask regions. In addition to reducing the research effort by at least three times, it outperforms the best specialized architectures by a significant margin on four popular datasets. Most notably, Mask2Former sets a new state-of-the-art for panoptic segmentation (57.8 PQ on COCO), instance segmentation (50.1 AP on COCO) and semantic segmentation (57.7 mIoU on ADE20K).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3DETR: An End-to-End Transformer Model for 3D Object Detection</title>
+      <link>http://localhost:1313/publication/2021_3detr/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021_3detr/</guid>
+      <description>&lt;p&gt;We propose 3DETR, an end-to-end Transformer based object detection model for 3D point clouds. Compared to existing detection methods that employ a number of 3D specific inductive biases, 3DETR requires minimal modifications to the vanilla Transformer block. Specifically, we find that a standard Transformer with non-parametric queries and Fourier positional embeddings is competitive with specialized architectures that employ libraries of 3D specific operators with hand-tuned hyperparameters. Nevertheless, 3DETR is conceptually simple and easy to implement, enabling further improvements by incorporating 3D domain knowledge. Through extensive experiments, we show 3DETR outperforms the well-established and highly optimized VoteNet baselines on the challenging ScanNetV2 dataset by 9.5%. Furthermore, we show 3DETR is applicable to 3D tasks beyond detection, and can serve as a building block for future research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3D Spatial Recognition without Spatially Labeled 3D</title>
+      <link>http://localhost:1313/publication/2021_wypr/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021_wypr/</guid>
+      <description>&lt;p&gt;We introduce WyPR, a Weakly-supervised framework for Point cloud Recognition, requiring only scene-level class tags as supervision. WyPR jointly addresses three core 3D recognition tasks: point-level semantic segmentation, 3D proposal generation, and 3D object detection, coupling their predictions through self and cross-task consistency losses. We show that in conjunction with standard multiple-instance learning objectives, WyPR can detect and segment objects in point cloud without access to any spatial labels at training time. We demonstrate its efficacy using the ScanNet and S3DIS datasets, outperforming prior state of the art on weakly-supervised segmentation by more than 6% mIoU. In addition, we set up the first benchmark for weakly-supervised 3D object detection on both datasets, where WyPR outperforms standard approaches and establishes strong baselines for future work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Video Action Transformer Network</title>
+      <link>http://localhost:1313/publication/2018_actiontx/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2018_actiontx/</guid>
+      <description>&lt;p&gt;We introduce the Action Transformer model for recognizing and localizing human actions in video clips. We repurpose a Transformer-style architecture to aggregate features from the spatiotemporal context around the person whose actions we are trying to classify. We show that by using high-resolution, person-specific, class-agnostic queries, the model spontaneously learns to track individual people and to pick up on semantic context from the actions of others. Additionally its attention mechanism learns to emphasize hands and faces, which are often crucial to discriminate an action - all without explicit supervision other than boxes and class labels. We train and test our Action Transformer network on the Atomic Visual Actions (AVA) dataset, outperforming the state-of-the-art by a significant margin using only raw RGB frames as input.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Detect-and-Track: Efficient Pose Estimation in Videos</title>
+      <link>http://localhost:1313/publication/2018_detectandtrack/</link>
+      <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2018_detectandtrack/</guid>
+      <description>&lt;p&gt;This paper addresses the problem of estimating and tracking human body keypoints in complex, multi-person video. We propose an extremely lightweight yet highly effective approach that builds upon the latest advancements in human detection and video understanding. Our method operates in two-stages: keypoint estimation in frames or short clips, followed by lightweight tracking to generate keypoint predictions linked over the entire video. For frame-level pose estimation we experiment with Mask R-CNN, as well as our own proposed 3D extension of this model, which leverages temporal information over small clips to generate more robust frame predictions. We conduct extensive ablative experiments on the newly released multi-person video pose estimation benchmark, PoseTrack, to validate various design choices of our model. Our approach achieves an accuracy of 55.2% on the validation and 51.8% on the test set using the Multi-Object Tracking Accuracy (MOTA) metric, and achieves state of the art performance on the ICCV 2017 PoseTrack keypoint tracking challenge.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

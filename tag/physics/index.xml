@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physics | Rohit Girdhar</title>
+    <link>http://localhost:1313/tag/physics/</link>
+      <atom:link href="http://localhost:1313/tag/physics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Physics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9c1485188d0073ca.png</url>
+      <title>Physics</title>
+      <link>http://localhost:1313/tag/physics/</link>
+    </image>
+    
+    <item>
+      <title>Physical Reasoning Using Dynamics Aware Embeddings</title>
+      <link>http://localhost:1313/publication/2021_dynamicsaware/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021_dynamicsaware/</guid>
+      <description>&lt;p&gt;A common approach to solving physicalreasoning tasks is to train a value learner on example tasks. A limitation of such an approach is that it requires learning about object dynamics solely from reward values assigned to the final state of a rollout of the environment. This study aims to address this limitation by augmenting the reward value with self-supervised signals about object dynamics. Specifically, we train the model to characterize the similarity of two environment rollouts, jointly with predicting the outcome of the reasoning task. This similarity can be defined as a distance measure between the trajectory of objects in the two rollouts, or learned directly from pixels using a contrastive formulation. Empirically, we find that this approach leads to substantial performance improvements on the PHYRE benchmark for physical reasoning, establishing a new state-of-the-art.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Forward Prediction for Physical Reasoning</title>
+      <link>http://localhost:1313/publication/2020_fwdpred/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2020_fwdpred/</guid>
+      <description>&lt;p&gt;Physical reasoning requires forward prediction: the ability to forecast what will happen next given some initial world state. We study the performance of state-of-the-art forward-prediction models in the complex physical-reasoning tasks of the PHYRE benchmark. We do so by incorporating models that operate on object or pixel-based representations of the world into simple physical-reasoning agents. We find that forward-prediction models can improve physical-reasoning performance, particularly on complex tasks that involve many objects. However, we also find that these improvements are contingent on the test tasks being small variations of train tasks, and that generalization to completely new task templates is challenging. Surprisingly, we observe that forward predictors with better pixel accuracy do not necessarily lead to better physical-reasoning performance.Nevertheless, our best models set a new state-of-the-art on the PHYRE benchmark.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
