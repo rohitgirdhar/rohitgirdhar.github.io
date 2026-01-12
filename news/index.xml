@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on </title>
+    <link>//localhost:55128/news/</link>
+    <description>Recent content in News on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:55128/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>After 7 incredible years, I have moved from Meta to AMI Labs!</title>
+      <link>//localhost:55128/news/2026-06-moved/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:55128/news/2026-06-moved/</guid>
+      <description>&lt;p&gt;After 7 incredible years, I have moved from Meta to AMI Labs! See more &lt;a href=&#34;https://x.com/_rohitgirdhar_/status/2066846769204347142&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mark Zuckerberg announced Muse Image and Muse Video, the...</title>
+      <link>//localhost:55128/news/2026-06-mark/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:55128/news/2026-06-mark/</guid>
+      <description>&lt;p&gt;Mark Zuckerberg &lt;a href=&#34;https://mashable.com/article/mark-zuckerberg-meta-announce-new-muse-spark-ai-models&#34;&gt;announced&lt;/a&gt; Muse Image and Muse Video, the first image/video generation models from Meta Superintelligence Labs, ranked &lt;a href=&#34;https://x.com/arena/status/2074581986702930186&#34;&gt;2nd on multiple Arena evals&lt;/a&gt;. I drove key efforts in multi-image editing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
